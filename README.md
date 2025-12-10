@@ -43,9 +43,9 @@ Algorithm Design:
 -  Output: Sorted list of numbers
 
 ## Steps To Run:
-1. Enter 1-10 integers.
-2. Press the run button.
-3. Watch the algorithm sort your list of numbers from least to greatest.
+1. Submit 1-20 integers.
+2. Press the Submit List of Numbers button.
+3. Watch the merge sort algorithm sort your list of numbers from least to greatest.
 
 ## Hugging Face Link:
 https://huggingface.co/spaces/QCISCProject/CISC-121-Project
