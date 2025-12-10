@@ -19,18 +19,23 @@ https://streamable.com/ik2a0t
 
 ## Problem Breakdown & Computational Thinking: 
 Decomposition:
-- Take a list
-- Divide list in half, get halves of list
-- Split those halves
-- Repeat till at 1
-- Sort the nodes
-- Repeat until list is sorted
+- accept a list of numbers from the user
+- continue dividing the list into two halves until each sub-list has length 1 (my base case here)
+- start merging pairs of smaller sorted lists into bigger sorted lists.
+- during merges repeatedly compare the first elements of each list and append the smaller one
+- continue merging upward until the entire list becomes one big sorted list
+- at significant steps, show it to the user using some visualization function
 
 Pattern Recognition:
-- It repeatedly splits lists in half until they are 1 item long
+- every list is treated the same independent of the size
+- split -> recursively sort the halves -> merge halves
+- merge sort process stays the same: compare left[0] and right[0], choose the smaller one of the 2, remove it, append to the result
 
 Abstraction:
-- the user just puts in a random lsit of numbers and gets out a sorted list. They dont have to sort anything
+- the user just puts in a random lsit of numbers and gets out a sorted list. 
+- They dont have to sort anything themselves
+- they only see the numbers they want to put in, their unsorted list, the steps the algorithm took to sort the list, and the sorted list
+
  
 Algorithm Design:
 -  Input: finite list of numbers
