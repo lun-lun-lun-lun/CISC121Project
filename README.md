@@ -15,7 +15,7 @@ short_description: Merge Sort Visualization
 Merge Sort
 
 ## Demo video/gif/screenshot of test: 
-TBA
+https://streamable.com/ik2a0t
 
 ## Problem Breakdown & Computational Thinking: 
 Decomposition:
